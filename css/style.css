@@ -4,13 +4,17 @@
 }
 
 body{
-    background-color: azure;
-    background-image: url(../img/fundo.png);
-    font-size: 16px;
+    background-color: brown;
+    background-image: url(../img/fundo3.png);
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center; /*Alinhamento*/
     position: absolute; /*Alinhamento*/
     width:100%; /*Alinhamento*/
+    color:rgb(11, 14, 14);
+    text-shadow: 0.05em 0.05em 0.1 rgb(0, 0, 0);
+    
+    
     
 }
 
@@ -34,7 +38,7 @@ a{
 }
 
 #menu{
-    background-color: #dfdfd2;
+    background-color: #fbfb53;
     padding: 18px;
     width: 96%;
     font-size: 24px;
@@ -44,10 +48,12 @@ a{
 
 .conteudo{
     text-align: left;
-    background-color:#fbfbda;
+   background-image: url(../img/fundo2.jpg);
+    background-color:#F5572F;
     padding: 10px;
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
+    background-size: cover;
    
     
 }
@@ -62,7 +68,11 @@ a{
     margin-right: auto;
     border: 10px;
     border-style: solid;
-    border-color: #e0e5f0;
+    border-color: #facfac;
 }
 
+.texto{
+    
+    border-radius: 60px;
+}
 
