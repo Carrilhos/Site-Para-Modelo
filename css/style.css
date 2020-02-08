@@ -39,6 +39,7 @@ a{
 
 #menu{
     background-color: #fbfb53;
+    background-image: linear-gradient(#fbfb53,#fbfb53, #f1f177); 
     padding: 18px;
     width: 96%;
     font-size: 24px;
@@ -48,7 +49,7 @@ a{
 
 .conteudo{
     text-align: left;
-   background-image: url(../img/fundo2.jpg);
+    background-image: linear-gradient(rgb(235, 137, 26),#e29750, #f3ac6a);
     background-color:#F5572F;
     padding: 10px;
     border-bottom-left-radius: 35px;
@@ -76,3 +77,6 @@ a{
     border-radius: 60px;
 }
 
+img{
+    border-radius: 20px;
+}
